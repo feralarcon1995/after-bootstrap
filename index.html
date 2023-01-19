@@ -14,7 +14,6 @@
 </head>
 
 <body>
-
     <header>
         <nav class="navbar navbar-dark bg-dark fixed-top navbar-expand-lg shadow">
             <div class="container-fluid">
@@ -52,6 +51,16 @@
                                     <li><a class="dropdown-item" href="#">Something else here</a></li>
                                 </ul>
                             </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link"> <i class="fa-brands fa-twitter"></i> </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="" class="nav-link"> <i class="fa-brands fa-facebook"></i></a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="" class="nav-link"><i class="fa-brands fa-instagram"></i></a>
+
+                            </li>
                         </ul>
                     </div>
                 </div>
@@ -59,24 +68,129 @@
         </nav>
 
         <section class="hero">
-            <img src="https://images.unsplash.com/photo-1442512595331-e89e73853f31?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
-                class="img-fluid" alt="">
+            <div id="carouselExampleCaptions" class="carousel slide">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="https://images.unsplash.com/photo-1509785307050-d4066910ec1e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1028&q=80"
+                            class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>El mejor cafe de la ciudad</h5>
+                            <p>Some representative placeholder content for the first slide.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://images.unsplash.com/photo-1497515114629-f71d768fd07c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1184&q=80"
+                            class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Recarga energias</h5>
+                            <p>Some representative placeholder content for the second slide.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://images.unsplash.com/photo-1475296204602-08d15839e95f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+                            class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>La mejor atencion </h5>
+                            <p>Some representative placeholder content for the third slide.</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
         </section>
     </header>
 
     <!-- main -->
     <main>
-
         <section class="bg-p">
 
-            <div class="row">
+            <h1 class="fs-1 text-center p-5 text-white">Coffee Time</h1>
 
-                <div class="col-md-5">
+            <div class="row row-cols-1 row-cols-md-2 g-4 p-3 mb-5">
+                <div class="col">
+                    <div class="card">
+                        <img src="https://images.unsplash.com/7/color-correct-coffee.JPG?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1632&q=80"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in
+                                to additional content. This content is a little bit longer.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="https://images.unsplash.com/photo-1462917882517-e150004895fa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in
+                                to additional content. This content is a little bit longer.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="https://images.unsplash.com/photo-1514927298007-a2b56e5270e1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1113&q=80"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in
+                                to additional content.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="https://images.unsplash.com/flagged/photo-1552938207-64eb8d53d8ca?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1111&q=80"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in
+                                to additional content. This content is a little bit longer.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row text-center align-items-center justify-content-center p-3 bg-white">
+                <div class="col-md-12 col-lg-5">
                     <img src="https://images.unsplash.com/photo-1504630083234-14187a9df0f5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
                         class="img-thumbnail mt-5" alt="">
                 </div>
 
-                <div class="col-md-5 p-3">
+                <div class="col-md-12 col-lg-5 p-3 justify">
+                    <h1>hola soy un titulo</h1>
+                    <p class="fw-bold text-dark font-monospace text-uppercase fs-3 ps-5 mt-5"> Lorem ipsum dolor sit
+                        amet
+                        consectetur adipisicing elit. Laborum cupiditate tenetur beatae veritatis,
+                        rerum voluptatum, dolores doloremque explicabo accusantium quo impedit eveniet magni! Quasi sed
+                        molestias, rem obcaecati assumenda laudantium.
+                        Vitae, fugiat expedita aliquam, delectus commodi doloremque ea optio voluptas doloribus,
+                        corporis non.
+                    </p>
+                </div>
+            </div>
+
+            <div class="row text-center align-items-center justify-content-center bg-black p-5">
+                <div class="col-md-12 col-lg-5 p-3">
                     <p class="fw-bold text-white font-monospace text-uppercase fs-3 ps-5 mt-5"> Lorem ipsum dolor sit
                         amet
                         consectetur adipisicing elit. Laborum cupiditate tenetur beatae veritatis,
@@ -84,61 +198,66 @@
                         molestias, rem obcaecati assumenda laudantium.
                         Vitae, fugiat expedita aliquam, delectus commodi doloremque ea optio voluptas doloribus,
                         corporis non.
-                        Animi fugit amet dolorum sed aspernatur, voluptates numquam iure illum deleniti doloribus,
-                        dignissimos,
-                        maiores quod omnis ex.
-                        Cupiditate a alias labore, totam sed ullam quas accusamus dicta, odio, exercitationem enim minus
-                        rerum
-                        minima placeat eius ex quod nihil veniam. Fuga quae eveniet deserunt facilis ut, consequatur
-                        expedita.
                     </p>
                 </div>
 
-            </div>
-
-
-            <div class="row">
-
-                <div class="col-md-5 p-3">
-                    <p class="fw-bold text-white font-monospace text-uppercase fs-3 ps-5 mt-5"> Lorem ipsum dolor sit
-                        amet
-                        consectetur adipisicing elit. Laborum cupiditate tenetur beatae veritatis,
-                        rerum voluptatum, dolores doloremque explicabo accusantium quo impedit eveniet magni! Quasi sed
-                        molestias, rem obcaecati assumenda laudantium.
-                        Vitae, fugiat expedita aliquam, delectus commodi doloremque ea optio voluptas doloribus,
-                        corporis non.
-                        Animi fugit amet dolorum sed aspernatur, voluptates numquam iure illum deleniti doloribus,
-                        dignissimos,
-                        maiores quod omnis ex.
-                        Cupiditate a alias labore, totam sed ullam quas accusamus dicta, odio, exercitationem enim minus
-                        rerum
-                        minima placeat eius ex quod nihil veniam. Fuga quae eveniet deserunt facilis ut, consequatur
-                        expedita.
-                    </p>
-                </div>
-
-                <div class="col-md-5">
-                    <img src="https://images.unsplash.com/photo-1504630083234-14187a9df0f5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+                <div class="col-md-12 col-lg-5">
+                    <img src="https://images.unsplash.com/photo-1507226983735-a838615193b0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
                         class="img-thumbnail mt-5" alt="">
                 </div>
-
-
-
             </div>
-
-
         </section>
 
 
 
+        <section class="cajas">
 
+            <div class="caja">
+                <p>Mi hijo es una caja</p>
+                <p>Mi hijo es una caja 2 </p>
+                <p>Mi hijo es una caja 3 </p>
+            </div>
+
+            <div class="caja">
+                <p>Mi hijo es una caja</p>
+            </div>
+
+            <div class="caja">
+                <input type="text" placeholder="soy un input" class="input">
+            </div>
+
+            <div class="caja">
+                <p>Mi hijo <br> es una caja</p>
+            </div>
+
+        </section>
+
+        <section class="links-container">
+            <ul class="links">
+                <li><a href=""> <i class="fa-brands fa-facebook"></i></a></li>
+                <li><a href=""><i class="fa-brands fa-facebook"></i></a></li>
+                <li><a href=""> <i class="fa-brands fa-twitter"></i></a></li>
+            </ul>
+        </section>
     </main>
 
+    <footer class="bg-dark">
+        <p class="text-white p-5 fs-2 text-center">After de bootstrap
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
 
+
+            <a href="#"> <i class="fa-brands fa-twitter"></i> </a>
+        </p>
+    </footer>
     <!-- script de bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
         crossorigin="anonymous"></script>
+
+    <!-- script fontawesome -->
+    <script src="https://kit.fontawesome.com/da2fde033e.js" crossorigin="anonymous"></script>
+
 </body>
 
 </html>
